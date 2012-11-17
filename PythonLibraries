@@ -7,4 +7,5 @@ Python libs I consider usefull:
 - tweepy for Twitter API
 - MySQLdb for connection to MySQL
 - json for obvious reasons
-- 
+- xml.dom.minidom for XML
+- lxml.objectify - even better
