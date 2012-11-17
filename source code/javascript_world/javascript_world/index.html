@@ -39,7 +39,8 @@
 						};
 						
 						st[0].onclick = function () {
-							alert(state);
+                                                        st[0]("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+							//alert(state);  // this is the click code!
 						};
 					})(map[state], state);
 				}; // end for
