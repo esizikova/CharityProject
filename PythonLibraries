@@ -1,0 +1,10 @@
+Python libs I consider usefull:
+
+- numpy for fast calculations
+- cherrypy for really nice web server
+- PIL for drawing images
+- re for regular expressions (obviously)
+- tweepy for Twitter API
+- MySQLdb for connection to MySQL
+- json for obvious reasons
+- 
