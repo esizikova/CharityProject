@@ -142,15 +142,16 @@ input {
 				for (var state in map) {							        
     	            map[state].color = Raphael.getColor();   // st -brder
 
+
 	                (function (st, state) {
-						st.scale(3);
+
 						var click = false;
 						var clickNo = 0;
 						var eltext = R.set();
 						var text = null;
 						var currCountryInfoBox = null;
 						st[0].style.cursor = "pointer";
-						st.translate(50,25);
+						st.translate(80,25);
 						st[0].onmouseover = function () {
 							if (orgMod == false) {
 							current && map[current].animate({fill: "#333", stroke: "#666"}, 300);   // uncolors
@@ -158,6 +159,7 @@ input {
 							R.safari();
 							current = state;
 							}
+
 						};
 						st[0].onmouseout = function () {
 						    if (orgMod == false) {
@@ -401,7 +403,7 @@ input {
 			<div id="Zimbabwe" class="city_hover"><span class="c_label"><strong>Zimbabwe: 2</strong><br />1 other</span></div>
         </div>
 
-<div id="filter" style="position:absolute; left:1200px; top:0px">
+<div id="filter" style="position:absolute; left:1100px; top:0px">
 <caption>Filters</caption >
 <h3>Region</h3>
 <div> 

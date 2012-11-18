@@ -142,15 +142,16 @@ input {
 				for (var state in map) {							        
     	            map[state].color = Raphael.getColor();   // st -brder
 
+
 	                (function (st, state) {
-						st.scale(3);
+
 						var click = false;
 						var clickNo = 0;
 						var eltext = R.set();
 						var text = null;
 						var currCountryInfoBox = null;
 						st[0].style.cursor = "pointer";
-						st.translate(50,25);
+						st.translate(150,25);
 						st[0].onmouseover = function () {
 							if (orgMod == false) {
 							current && map[current].animate({fill: "#333", stroke: "#666"}, 300);   // uncolors
@@ -158,6 +159,7 @@ input {
 							R.safari();
 							current = state;
 							}
+
 						};
 						st[0].onmouseout = function () {
 						    if (orgMod == false) {
