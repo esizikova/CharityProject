@@ -13,7 +13,8 @@
             window.onload = function () {
 				var current = null;
 				var map = {};
-				var m = {};				
+				var m = {};	
+				var orgMod = false;					
 				var attr = {
 					fill: "#333",
 					stroke: "#888",
@@ -42,27 +43,33 @@
 						st[0].style.cursor = "pointer";
 						st.translate(0,25);
 						st[0].onmouseover = function () {
+							if (orgMod == false) {
 							current && map[current].animate({fill: "#333", stroke: "#666"}, 300);   // uncolors
 							st.animate({fill: st.color, stroke: "#ccc"}, 300);   // colors current
 							R.safari();
 							current = state;
+							}
 						};
 						st[0].onmouseout = function () {
+						    if (orgMod == false) {
 							st.animate({fill: "#333", stroke: "#666"}, 300);
 						        if (click) {
 								st.scale(0.5);
 								text.remove();
+							
 							}
 							click = false;
 							clickNo = 0;
 							currCountryInfoBox.remove()
 							R.safari();
-
+							
+}
 						};
 						
 						
 
 						st[0].onclick = function () {
+						if (orgMod == false) {
 							if (! click) {
 							   st.scale(2);
 							   st.toFront();
@@ -83,6 +90,7 @@
 								currCountryInfoBox.remove()
 							    }
 							R.safari();
+						}
 						};
 
 
@@ -165,32 +173,40 @@
 				var rcities = [{cname: "Kenya", ccode: "KE", fund: 120},{cname: "China", ccode: "CN", fund: 50}]
 				var current_org = null;
 				var org_box = null;
-				for (var org in orgs) {							        
+				for (var org in orgs) {	
     	            map[state].color = Raphael.getColor();
 	                (function (st, org) {
+					    
+						var clickTime = 0;
 						st[0].style.cursor = "pointer";
 						st[0].onmouseover = function () {
-							current_org && cities[current_org].animate({fill: "#2B11D6", opacity: .1}, 300);
-							st.animate({fill: "#2B11D6", opacity: 1}, 300);
-							current_city = city;
-							for (var rcity in rcities) {
-							var i = rcities[rcity].fund * 0.01;
-							map[rcities[rcity].ccode].animate({fill: "#2B11D6", opacity: i}, 300);
-							}
-							R.safari();
-						};
-						st[0].onmouseout = function () {
-							st.animate({fill: "#2B11D6", opacity: 0.3}, 300);
-							for (var rcity in rcities) {
-							map[rcities[rcity].ccode].animate({fill: "#333", opacity: 1}, 300);
-							}
-							R.safari();
-						};
-						
-						st[0].onclick = function () {
 							if (t = document.getElementById(org_box)) { t.style.display = "none"; }
 							if (t = document.getElementById(org)) { t.style.display = "block"; }
 							org_box = org;
+						};
+						st[0].onmouseout = function () {
+							//R.safari();
+						};
+						st[0].onclick = function () {
+						    if (clickTime == 0) {
+								current_org && cities[current_org].animate({fill: "#2B11D6", opacity: .1}, 300);
+								st.animate({fill: "#2B11D6", opacity: 1}, 300);
+								for (var rcity in rcities) {
+									var i = rcities[rcity].fund * 0.01;
+									map[rcities[rcity].ccode].animate({fill: "#2B11D6", opacity: i}, 300);
+								}
+							orgMod = true;
+							clickTime = 1;
+							}
+							else {
+								st.animate({fill: "#2B11D6", opacity: 0.3}, 300);
+								for (var rcity in rcities) {
+								map[rcities[rcity].ccode].animate({fill: "#333", opacity: 1}, 300);
+								}
+							clickTime = 0;
+							orgMod = false;
+							}
+							R.safari();
 						};
 
 
