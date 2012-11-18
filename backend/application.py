@@ -103,6 +103,28 @@ class Application(object):
         return json.dumps (obj, indent=3)
     GetObject.exposed = True
 
+    def FindByAttribute (self, attribute, value):
+        cnxn = MySQLdb.connect ("localhost", "root", "", "wateraid")
+        cursor = cnxn.cursor()
+        
+        # Find all the end nodes with desired value
+        query = "SELECT ParentId FROM Attributes WHERE Name LIKE '" + value + "%' AND ParentId=ChildId;"
+        cursor.execute (query)
+
+        endpoints = cursor.fetchall()
+
+        parents = []
+        for i in endpoints:
+            # And now fit all of their parents with the right reference
+            query = "SELECT ParentId FROM Attributes WHERE ChildId=" + str(i[0]) +" AND Name='" + str(attribute) + "';"
+            cursor.execute (query)
+            parents += map (lambda x : x[0], cursor.fetchall())
+        cherrypy.response.headers['Content-type'] = "application/json"
+        return json.dumps (parents, indent=3)
+    FindByAttribute.exposed = True
+
+        
+
     def RetrieveObject (self, cursor, objectid):
         query = "SELECT Name, ChildId FROM Attributes WHERE ParentId=" + str(objectid) + ";"
         cursor.execute (query)
