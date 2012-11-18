@@ -24,24 +24,49 @@
 				var R = Raphael("holder_1000");
 				render_map(R,map,attr);		
 				for (var state in map) {							        
-    	            map[state].color = Raphael.getColor();
+    	            map[state].color = Raphael.getColor();   // st -brder
 	                (function (st, state) {
+						var click = false;
+						var eltext = R.set();
+						var text = null;
 						st[0].style.cursor = "pointer";
 						st[0].onmouseover = function () {
-							current && map[current].animate({fill: "#333", stroke: "#666"}, 300);
-							st.animate({fill: st.color, stroke: "#ccc"}, 300);
+							current && map[current].animate({fill: "#333", stroke: "#666"}, 300);   // uncolors
+							st.animate({fill: st.color, stroke: "#ccc"}, 300);   // colors current
 							R.safari();
 							current = state;
 						};
 						st[0].onmouseout = function () {
 							st.animate({fill: "#333", stroke: "#666"}, 300);
+						        if (click) {
+								st.scale(0.5);
+								text.remove();
+							}
+							click = false;
 							R.safari();
+
 						};
 						
 						st[0].onclick = function () {
-                                                        st[0].("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-							//alert(state);  // this is the click code!
+							if (! click) {
+							   st.scale(2);
+						           //st.write("apple");
+ 							   click = true;
+							   //var box = st.getBBox(true);
+							   //el = R.ellipse((box.x, box.y, box.width, box.height).animate({fill: "#333"});
+							   //R.push(el);
+							   var box = st.getBBox(true);
+							   var centerX = box.x+0.6*box.width;
+							   var centerY = box.y+0.6*box.height;
+							   text = R.text(centerX, centerY, "Timeline").attr({fill: '#ff0000'});
+				
+							}
+							
+
+							R.safari();
 						};
+
+
 					})(map[state], state);
 				}; // end for
 				
