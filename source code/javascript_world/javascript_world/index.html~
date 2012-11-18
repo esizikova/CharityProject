@@ -401,7 +401,7 @@ input {
 			<div id="Zimbabwe" class="city_hover"><span class="c_label"><strong>Zimbabwe: 2</strong><br />1 other</span></div>
         </div>
 
-<div id="filter" style="position:absolute; left:1100px; top:0px">
+<div id="filter" style="position:absolute; left:1200px; top:0px">
 <caption>Filters</caption >
 <h3>Region</h3>
 <div> 
