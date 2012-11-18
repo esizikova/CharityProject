@@ -174,14 +174,14 @@
 				var aidPoints = {};
 				
 				//function getAidPoints() {
-					//$.get("/backend/getAidPoints",
-					//function(data){
+					$.get("/backend/getAidPoints",
+					function(data){
 						//console.log (data)
 						var namey;
 						var yieldy;
 						var lony;
 						var laty;
-						var data = [{name: "Bronwen", lon : 40.143105, lat: 47.576927, yield: 30},{name: "Fred", lon : -16.290154, lat: 63.588653, yield: 10}];
+					//	var data = [{name: "Bronwen", lon : 40.143105, lat: 47.576927, yield: 30},{name: "Fred", lon : -16.290154, lat: 63.588653, yield: 10}];
 						for (var x in data)
 							{
 								console.log(data[x].name);
@@ -192,7 +192,7 @@
 								$('#holder_1000').append('<div id='+namey+' class="aidPoint_hover"><span class="a_label"><strong><strong>'+namey+'</strong></strong><br /></span></div>');
 								aidPoints[namey] = plot (lony, laty, yieldy);
 							}
-					//}, "json");
+					}, "json");
 				//}
 
 				var current_aidPoint = null;
