@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<iati-activities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Angola</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Angola.</description>
+		<iati-identifier>GB-COH-1787329-AO</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="???-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="AO">Angola</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Angola</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/about_us/frequently_asked_questions/our_work/wateraids_new_country_programmes/7996.asp</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">0</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">47000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">0</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Bangladesh</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Bangladesh.</description>
+		<iati-identifier>GB-COH-1787329-BD</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1986-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="BD">Bangladesh</recipient-country>
+		<recipient-region code="689">South &amp; Central Asia, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Bangladesh</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/bangladesh</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp1" type="22">Dushtha Shasthya Kendra</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp2" type="22">Green Hill</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp3" type="22">Village Education Resource Centre</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp4" type="22">Population Service and Training Centre</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp5" type="22">Nabolok</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp6" type="22">Dhaka Ahsania Mission</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp7" type="22">Rupantar</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp8" type="22">Unnayan Sahojogi Team</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp9" type="22">Rangpur Dinajpur Rural Service</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp10" type="22">ZIBIKA</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">1454000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1440000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">2539000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">278000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Dushtha Shasthya Kendra</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">234000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Green Hill</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">201000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Village Education Resource Centre</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">182000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Population Service and Training Centre</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">120000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Nabolok</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">79000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Dhaka Ahsania Mission</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">71000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Rupantar</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">65000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Unnayan Sahojogi Team</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">64000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Rangpur Dinajpur Rural Service</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">63000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>ZIBIKA</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Burkina Faso</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Burkina Faso.</description>
+		<iati-identifier>GB-COH-1787329-BF</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="2001-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="BF">Burkina Faso</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Burkina Faso</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/burkina_faso</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp11" type="22">Association pour la Valorisation des Ressources Naturelles a l\'Auto-promotion</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp12" type="22">Association les Mains Unies du Sahel</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp13" type="22">Association DAKUPA</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp14" type="22">Action Micro Barrage</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">825000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1116000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1900000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">530000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Association pour la Valorisation des Ressources Naturelles a l\'Auto-promotion</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">168000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Association les Mains Unies du Sahel</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">168000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Association DAKUPA</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">67000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Action Micro Barrage</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Ethiopia</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Ethiopia.</description>
+		<iati-identifier>GB-COH-1787329-ET</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1983-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="ET">Ethiopia</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Ethiopia</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/ethiopia</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp15" type="22">Ethiopian Evangelical Church Mekane Yesus- Dita</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp16" type="22">HOPE-2020</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp17" type="22">Ethiopian Orthodox Church - DEMBIA</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">1457000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1073000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">2193000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">88000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Ethiopian Evangelical Church Mekane Yesus- Dita</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">80000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>HOPE-2020</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">74000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Ethiopian Orthodox Church - DEMBIA</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Ghana</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Ghana.</description>
+		<iati-identifier>GB-COH-1787329-GH</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1985-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="GH">Ghana</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Ghana</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/ghana</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp18" type="22">New Energy</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp19" type="22">Professional Network Association - Wa</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp20" type="22">Rural Aid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp21" type="22">Akuapem Community Development Programme</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">874000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">489000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1141000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">90000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>New Energy</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">80000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Professional Network Association - Wa</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">73000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Rural Aid</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">68000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Akuapem Community Development Programme</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid India</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in India.</description>
+		<iati-identifier>GB-COH-1787329-IN</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1986-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="IN">India</recipient-country>
+		<recipient-region code="689">South &amp; Central Asia, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid India</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/india</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp22" type="22">Centre for World Solidarity</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp23" type="22">Society For Social Unity and Development</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp24" type="22">Gram Vikas</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp25" type="22">United Artists Association</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">1470000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1498000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">2575000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">82000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Centre for World Solidarity</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">72000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Society For Social Unity and Development</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">67000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Gram Vikas</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">63000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>United Artists Association</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Kenya</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Kenya.</description>
+		<iati-identifier>GB-COH-1787329-KE</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1998???-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="KE">Kenya</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Kenya</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/about_us/frequently_asked_questions/our_work/wateraids_new_country_programmes/7994.asp</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">34000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">11000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">11000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Liberia</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Liberia.</description>
+		<iati-identifier>GB-COH-1787329-LR</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="2009-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="LR">Liberia</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Liberia</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/about_us/frequently_asked_questions/our_work/wateraids_new_country_programmes/7997.asp</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">153000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">90000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">114000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Madagascar</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Madagascar.</description>
+		<iati-identifier>GB-COH-1787329-MG</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1999-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="MG">Madagascar</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Madagascar</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/madagascar</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp26" type="22">Engineering Consulting Associates - Miandrivazo</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp27" type="22">SAF/FJKM - Vinaninony</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp28" type="22">Caritas - Tsaraotana</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">989000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">591000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1442000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">82000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Engineering Consulting Associates - Miandrivazo</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">72000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>SAF/FJKM - Vinaninony</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">69000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Caritas - Tsaraotana</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Malawi</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Malawi.</description>
+		<iati-identifier>GB-COH-1787329-MW</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1999-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="MW">Malawi</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Malawi</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/malawi</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp29" type="22">Work for Rural Health</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp30" type="22">Church of Central Africa Presbyterian</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">686000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">896000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1106000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">81000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Work for Rural Health</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">70000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Church of Central Africa Presbyterian</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Mali</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Mali.</description>
+		<iati-identifier>GB-COH-1787329-ML</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="2000-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="ML">Mali</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Mali</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/mali</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp31" type="22">Coalition pour l\'Approvisionnement en Eau Potable</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp32" type="22">Association de Recherche - Action Femme et Développement</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp33" type="22">Association Libre pour la Promotion de l\'Habitate et du Logement</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">364000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">857000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1328000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">73000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Coalition pour l\'Approvisionnement en Eau Potable</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">69000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Association de Recherche - Action Femme et Développement</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">65000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Association Libre pour la Promotion de l\'Habitate et du Logement</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Mozambique</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Mozambique.</description>
+		<iati-identifier>GB-COH-1787329-MZ</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1995-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="MZ">Mozambique</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Mozambique</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/mozambique</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp34" type="22">ESTAMOS Maputo</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp35" type="22">PAMODZI</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp36" type="22">Estamos Lichinga</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">772000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1190000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1904000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">126000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>ESTAMOS Maputo</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">93000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>PAMODZI</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">83000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Estamos Lichinga</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Nepal</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Nepal.</description>
+		<iati-identifier>GB-COH-1787329-NP</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1986-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="NP">Nepal</recipient-country>
+		<recipient-region code="689">South &amp; Central Asia, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Nepal</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/nepal</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp37" type="22">Nepal Water For Health</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp38" type="22">Lumanti Support Group For Shelter</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp39" type="22">Centre For Integrated Urban Development</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">824000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1546000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1122000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1596000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Nepal Water For Health</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">131000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Lumanti Support Group For Shelter</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">77000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Centre For Integrated Urban Development</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Niger</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Niger.</description>
+		<iati-identifier>GB-COH-1787329-NE</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="2009-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="NE">Niger</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Niger</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/niger</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">63000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">110000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">97000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Nigeria</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Nigeria.</description>
+		<iati-identifier>GB-COH-1787329-NG</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1995-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="NG">Nigeria</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Nigeria</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/nigeria</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp40" type="22">Small Town Water Supply and Sanitation Agency</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp41" type="22">Enugu Small Towns Unit</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp42" type="22">Tioribougou</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">671000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1465000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1705000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">282000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Small Town Water Supply and Sanitation Agency</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">234000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Enugu Small Towns Unit</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">63000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Tioribougou</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Pakistan</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Pakistan.</description>
+		<iati-identifier>GB-COH-1787329-PK</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1990???-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="PK">Pakistan</recipient-country>
+		<recipient-region code="689">South &amp; Central Asia, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Pakistan</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/pakistan</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">339000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">386000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">492000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>      
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Rwanda</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Rwanda.</description>
+		<iati-identifier>GB-COH-1787329-RW</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="2009-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="RW">Rwanda</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Rwanda</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/about_us/frequently_asked_questions/our_work/wateraids_new_country_programmes/7994.asp</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">0</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">115000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">15000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Sierra Leone</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Sierra Leone.</description>
+		<iati-identifier>GB-COH-1787329-SL</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="2009-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="SL">Sierra Leone</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Sierra Leone</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/sierra_leone</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">11000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">96000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">50000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Tanzania</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Tanzania.</description>
+		<iati-identifier>GB-COH-1787329-TZ</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1983-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="TZ">Tanzania</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Tanzania</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/tanzania</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp43" type="22">Sustainable Environment Management Action</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp44" type="22">TDFT</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp45" type="22">HAPA</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp46" type="22">DMDD</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp47" type="22">MAMADO</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">1445000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">741000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1858000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">273000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Sustainable Environment Management Action</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">245000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>TDFT</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">203000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>HAPA</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">160000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>DMDD</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">87000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>MAMADO</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Uganda</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Uganda.</description>
+		<iati-identifier>GB-COH-1787329-UG</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1983-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="UG">Uganda</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Uganda</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/uganda</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp48" type="22">Masindi District Local Government</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp49" type="22">Wera Development Association</participating-org>
+    <participating-org role="Implementing" ref="???WAPartTemp50" type="22">Busoga Trust</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">871000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">419000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1241000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">154000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Masindi District Local Government</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">104000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Wera Development Association</receiver-org>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">91000</value>
+      <transaction-type code="E">expenditure of a top 50 partner organisation</transaction-type>
+      <tied-status code="3">mixed funding sources</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org>Busoga Trust</receiver-org>
+    </transaction>
+  </iati-activity>
+	<iati-activity hierarchy="3" xml:lang="en" default-currency="GBP" last-updated-datetime="2011-12-14T12:00:00Z">
+		<title>WaterAid Zambia</title>
+		<description type="1">Summary of Country Programme expenditures including top 50 WaterAid partners (by expenditure) that operate in Zambia.</description>
+		<iati-identifier>GB-COH-1787329-ZM</iati-identifier>
+		<reporting-org ref="GB-COH-1787329" type="21">WaterAid</reporting-org>
+		<activity-status code="2">Implementation</activity-status>
+		<activity-date iso-date="1992-04-06" type="start-actual">date in country operations commenced</activity-date>
+		<recipient-country code="ZM">Zambia</recipient-country>
+		<recipient-region code="289">South of Sahara, regional</recipient-region>
+		<sector vocabulary="DAC" code="140" percentage="100">Water and Sanitation</sector>
+		<collaboration-type code="5">Aid through NGOs (co-ordinated centrally)</collaboration-type>
+		<contact-info>
+			<organisation>WaterAid Zambia</organisation>
+		</contact-info>
+		<activity-website>http://www.wateraid.org/uk/what_we_do/where_we_work/zambia</activity-website>
+    <participating-org role="Funding" ref="GB-COH-1787329" type="21">WaterAid</participating-org>
+    <transaction>
+      <value value-date="2011-04-06???">1310000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="5">unrestricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">241000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="4">restricted</tied-status>
+      <transaction-date iso-date="2011-04-06???">2010-2011 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+    <transaction>
+      <value value-date="2011-04-06???">1049000</value>
+      <transaction-type code="E">Country Programme expenditure</transaction-type>
+      <tied-status code="3">consolidated</tied-status>
+      <transaction-date iso-date="2010-04-06???">2009-2010 GB tax year</transaction-date>
+      <receiver-org/>
+    </transaction>
+  </iati-activity>
+</iati-activities>
