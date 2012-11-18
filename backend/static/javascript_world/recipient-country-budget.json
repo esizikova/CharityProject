@@ -1,0 +1,832 @@
+[
+   [
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "AO", 
+            "#text": "Angola"
+         }, 
+         "value": {
+            "#text": "99997", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "BD", 
+            "#text": "Bangladesh"
+         }, 
+         "value": {
+            "#text": "5020005", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "BF", 
+            "#text": "Burkina Faso"
+         }, 
+         "value": {
+            "#text": "1822060", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "ET", 
+            "#text": "Ethiopia"
+         }, 
+         "value": {
+            "#text": "3325075", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "GH", 
+            "#text": "Ghana"
+         }, 
+         "value": {
+            "#text": "1706663", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "IN", 
+            "#text": "India"
+         }, 
+         "value": {
+            "#text": "3515327", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "KE", 
+            "#text": "Kenya"
+         }, 
+         "value": {
+            "#text": "235292", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "LS", 
+            "#text": "Lesotho"
+         }, 
+         "value": {
+            "#text": "97728", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "LR", 
+            "#text": "Liberia"
+         }, 
+         "value": {
+            "#text": "348375", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "MG", 
+            "#text": "Madagascar"
+         }, 
+         "value": {
+            "#text": "1811930", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "MW", 
+            "#text": "Malawi"
+         }, 
+         "value": {
+            "#text": "2249697", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "ML", 
+            "#text": "Mali"
+         }, 
+         "value": {
+            "#text": "1639320", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "MZ", 
+            "#text": "Mozambique"
+         }, 
+         "value": {
+            "#text": "2734589", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "NP", 
+            "#text": "Nepal"
+         }, 
+         "value": {
+            "#text": "2891480", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "NE", 
+            "#text": "Niger"
+         }, 
+         "value": {
+            "#text": "365732", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "NG", 
+            "#text": "Nigeria"
+         }, 
+         "value": {
+            "#text": "2802506", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "PK", 
+            "#text": "Pakistan"
+         }, 
+         "value": {
+            "#text": "1167095", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "RW", 
+            "#text": "Rwanda"
+         }, 
+         "value": {
+            "#text": "291246", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "SL", 
+            "#text": "Sierra Leone"
+         }, 
+         "value": {
+            "#text": "350314", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "SZ", 
+            "#text": "Swaziland"
+         }, 
+         "value": {
+            "#text": "98059", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "TZ", 
+            "#text": "Tanzania"
+         }, 
+         "value": {
+            "#text": "3376620", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "UG", 
+            "#text": "Uganda"
+         }, 
+         "value": {
+            "#text": "1221819", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "ZM", 
+            "#text": "Zambia"
+         }, 
+         "value": {
+            "#text": "1540861", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "AO", 
+            "#text": "Angola"
+         }, 
+         "value": {
+            "#text": "99997", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "BD", 
+            "#text": "Bangladesh"
+         }, 
+         "value": {
+            "#text": "5020005", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "BF", 
+            "#text": "Burkina Faso"
+         }, 
+         "value": {
+            "#text": "1822060", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "ET", 
+            "#text": "Ethiopia"
+         }, 
+         "value": {
+            "#text": "3325075", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "GH", 
+            "#text": "Ghana"
+         }, 
+         "value": {
+            "#text": "1706663", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "IN", 
+            "#text": "India"
+         }, 
+         "value": {
+            "#text": "3515327", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "KE", 
+            "#text": "Kenya"
+         }, 
+         "value": {
+            "#text": "235292", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "LS", 
+            "#text": "Lesotho"
+         }, 
+         "value": {
+            "#text": "97728", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "LR", 
+            "#text": "Liberia"
+         }, 
+         "value": {
+            "#text": "348375", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "MG", 
+            "#text": "Madagascar"
+         }, 
+         "value": {
+            "#text": "1811930", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "MW", 
+            "#text": "Malawi"
+         }, 
+         "value": {
+            "#text": "2249697", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "ML", 
+            "#text": "Mali"
+         }, 
+         "value": {
+            "#text": "1639320", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "MZ", 
+            "#text": "Mozambique"
+         }, 
+         "value": {
+            "#text": "2734589", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "NP", 
+            "#text": "Nepal"
+         }, 
+         "value": {
+            "#text": "2891480", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "NE", 
+            "#text": "Niger"
+         }, 
+         "value": {
+            "#text": "365732", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "NG", 
+            "#text": "Nigeria"
+         }, 
+         "value": {
+            "#text": "2802506", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "PK", 
+            "#text": "Pakistan"
+         }, 
+         "value": {
+            "#text": "1167095", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "RW", 
+            "#text": "Rwanda"
+         }, 
+         "value": {
+            "#text": "291246", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "SL", 
+            "#text": "Sierra Leone"
+         }, 
+         "value": {
+            "#text": "350314", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "SZ", 
+            "#text": "Swaziland"
+         }, 
+         "value": {
+            "#text": "98059", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "TZ", 
+            "#text": "Tanzania"
+         }, 
+         "value": {
+            "#text": "3376620", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "UG", 
+            "#text": "Uganda"
+         }, 
+         "value": {
+            "#text": "1221819", 
+            "@value-date": "2013-03-31Z"
+         }
+      }, 
+      {
+         "period-end": {
+            "#text": "End of WaterAid 2012-13 financial year (1st April to 31st March)", 
+            "@iso-date": "2013-03-31Z"
+         }, 
+         "period-start": {
+            "#text": "Forward looking data for WaterAid's 2012-2013 financial year (1st April to 31st March) is drawn from WaterAid's approved budget and are the estimates as at March 2012.  The actual figures achieved will vary depending on a range of factors including the securing of the funding needed, challenges faced in the countries etc..", 
+            "@iso-date": "2012-04-01Z"
+         }, 
+         "recipient-country": {
+            "@code": "ZM", 
+            "#text": "Zambia"
+         }, 
+         "value": {
+            "#text": "1540861", 
+            "@value-date": "2013-03-31Z"
+         }
+      }
+   ]
+]
