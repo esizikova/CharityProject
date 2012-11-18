@@ -7,13 +7,122 @@
         <link rel="stylesheet" href="css/demo-print.css" type="text/css" media="print">
 
         <script src="js/raphael_2.0.2.js" type="text/javascript"></script>
-        <script src="js/world_1000.js" type="text/javascript"></script>
-	
+        <script src="js/world_570.js" type="text/javascript"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+		<style>
+		
+		label {
+	position:absolute;
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+input {
+    width: 13px;
+    height: 13px;
+    padding-left: 15px;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+  section { display: block; }
+  #filter 
+  {
+  font-size: 11px;
+  height: 21px;
+  margin: 7px auto 17px auto;
+  width: 186px;
+  }
+
+ #filter span 
+  {
+  color: #999;
+  float: left;
+  margin: 4px 0 0 87px;
+  padding-right: 4px;
+  text-align: right;
+  }
+
+ #filter ul 
+  {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+
+ #filter ul li a 
+  {
+  padding: 3px 10px 1px 10px;
+  }
+
+ #filter ul, #filter a 
+  {
+  width: 186px;
+  }
+
+ #filter ul ul 
+  {
+  position: absolute;
+  }
+
+ #filter ul ul li
+  {
+  border-top: 1px solid #1687D1;
+  float: left;
+  position: relative;
+  }
+
+ #filter a 
+  {
+  background:#1687D1; 
+  color: #32CD32;
+  display: block;
+  font-size: 10px;
+  height: 17px;
+  padding: 4px 10px 0 10px;
+  text-align: left;
+  text-decoration: none;
+  width: 166px;
+  }
+
+ #filter ul ul li a 
+  {
+  background: #1687D1;
+  color: #FFFF00;
+  }
+
+ #filter ul ul li a:hover 
+  {
+  background: #c4262c;
+  color: #fff;
+  }
+  #filter ul ul li a ul li
+  {
+  position: absolute;
+  left: 200px;
+  }
+
+  
+  
+  .hidden { display: none; }
+  .active { display: block; }
+  
+</style>
+
         <script type="text/javascript">        
             window.onload = function () {
 				var current = null;
 				var map = {};
-				var m = {};				
+				var m = {};	
+				var orgMod = false;					
 				var attr = {
 					fill: "#333",
 					stroke: "#888",
@@ -42,27 +151,33 @@
 						st[0].style.cursor = "pointer";
 						st.translate(0,25);
 						st[0].onmouseover = function () {
+							if (orgMod == false) {
 							current && map[current].animate({fill: "#333", stroke: "#666"}, 300);   // uncolors
 							st.animate({fill: st.color, stroke: "#ccc"}, 300);   // colors current
 							R.safari();
 							current = state;
+							}
 						};
 						st[0].onmouseout = function () {
+						    if (orgMod == false) {
 							st.animate({fill: "#333", stroke: "#666"}, 300);
 						        if (click) {
 								st.scale(0.5);
 								text.remove();
+							
 							}
 							click = false;
 							clickNo = 0;
 							currCountryInfoBox.remove()
 							R.safari();
-
+							
+}
 						};
 						
 						
 
 						st[0].onclick = function () {
+						if (orgMod == false) {
 							if (! click) {
 							   st.scale(2);
 							   st.toFront();
@@ -83,6 +198,7 @@
 								currCountryInfoBox.remove()
 							    }
 							R.safari();
+						}
 						};
 
 
@@ -165,32 +281,40 @@
 				var rcities = [{cname: "Kenya", ccode: "KE", fund: 120},{cname: "China", ccode: "CN", fund: 50}]
 				var current_org = null;
 				var org_box = null;
-				for (var org in orgs) {							        
+				for (var org in orgs) {	
     	            map[state].color = Raphael.getColor();
 	                (function (st, org) {
+					    
+						var clickTime = 0;
 						st[0].style.cursor = "pointer";
 						st[0].onmouseover = function () {
-							current_org && cities[current_org].animate({fill: "#2B11D6", opacity: .1}, 300);
-							st.animate({fill: "#2B11D6", opacity: 1}, 300);
-							current_city = city;
-							for (var rcity in rcities) {
-							var i = rcities[rcity].fund * 0.01;
-							map[rcities[rcity].ccode].animate({fill: "#2B11D6", opacity: i}, 300);
-							}
-							R.safari();
-						};
-						st[0].onmouseout = function () {
-							st.animate({fill: "#2B11D6", opacity: 0.3}, 300);
-							for (var rcity in rcities) {
-							map[rcities[rcity].ccode].animate({fill: "#333", opacity: 1}, 300);
-							}
-							R.safari();
-						};
-						
-						st[0].onclick = function () {
 							if (t = document.getElementById(org_box)) { t.style.display = "none"; }
 							if (t = document.getElementById(org)) { t.style.display = "block"; }
 							org_box = org;
+						};
+						st[0].onmouseout = function () {
+							//R.safari();
+						};
+						st[0].onclick = function () {
+						    if (clickTime == 0) {
+								current_org && cities[current_org].animate({fill: "#2B11D6", opacity: .1}, 300);
+								st.animate({fill: "#2B11D6", opacity: 1}, 300);
+								for (var rcity in rcities) {
+									var i = rcities[rcity].fund * 0.01;
+									map[rcities[rcity].ccode].animate({fill: "#2B11D6", opacity: i}, 300);
+								}
+							orgMod = true;
+							clickTime = 1;
+							}
+							else {
+								st.animate({fill: "#2B11D6", opacity: 0.3}, 300);
+								for (var rcity in rcities) {
+								map[rcities[rcity].ccode].animate({fill: "#333", opacity: 1}, 300);
+								}
+							clickTime = 0;
+							orgMod = false;
+							}
+							R.safari();
 						};
 
 
@@ -275,5 +399,81 @@
 			<div id="Yemen" class="city_hover"><span class="c_label"><strong>Yemen: 5</strong><br /></span></div>
 			<div id="Zimbabwe" class="city_hover"><span class="c_label"><strong>Zimbabwe: 2</strong><br />1 other</span></div>
         </div>
+
+<div id="filter">
+<caption>Filters</caption >
+<h3>Region</h3>
+<div> 
+		 <p>
+        
+        </p>
+<div id=reg><label><input id="SAM" type="checkbox" onclick="filteringfun()" />South America</label><br>
+								<label><input id="AFR" type="checkbox" onclick="filteringfun()" />Africa</label>
+								</div>
+</div>
+    <h3>Monetary value</h3>
+<div>			 
+     	 <p>
+        
+        </p>
+<div id=mon><label><input id="HI" type="checkbox" onclick="filteringfun()" />High</label><br>
+									<label><input id="LO" type="checkbox" onclick="filteringfun()" />Low</label>
+									</div>
+</div>
+<h3>Type of aid</h3>
+<div>				 
+
+<p>
+        
+        </p>
+			<div id=aid> <label><input id="TYPE1" type="checkbox" onclick="filteringfun()" />1</label><br>
+									<label><input id="TYPE2" type="checkbox" onclick="filteringfun()" />2</label>
+									</div>
+</div>
+<h3>Duration of aid</h3>
+<div>
+		 
+
+<p>
+        
+        </p>
+			
+			<div id=dur><label><input id="LONG" type="checkbox" onclick="filteringfun()" />Long</label><br>
+									<label><input id="SHORT" type="checkbox" onclick="filteringfun()" />Short</label>
+									</div>
+</div>
+         <h3>Number of water points</h3>
+<div>
+		 <p>
+        
+        </p>
+<div id=wat><label><input id="MORE" type="checkbox" onclick="filteringfun()" />More than 100</label><br>
+									<label><input id="LESS" type="checkbox" onclick="filteringfun()" />Less than 100</label>
+									</div>
+</div>
+</div>
+ 
+ 
 </body>
-</html>
+<script>
+	function filteringfun()
+				{
+				console.log("checked");
+				var variouschecks=$(':checkbox');
+				console.log(variouschecks.length);
+				var txt="";
+				var i;
+					for (i=0;i<variouschecks.length;i++)
+					  {
+					  if (variouschecks[i].checked)
+						{
+						txt=txt + variouschecks[i].value + " ";
+						}
+					  }
+					  if (t = document.getElementById("KE")) { t.style.display = "block"; }
+							if (t = document.getElementById(city)) { t.style.display = "block"; }
+				}
+    $(function() {
+		$( "#filter" ).accordion({ active: false, collapsible: true });
+    });
+    </script>
