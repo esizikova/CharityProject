@@ -1,5 +1,5 @@
 body {
-    background: #1687D1;
+    background: #FFFFFF;
     color: #fff;
     font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
 }
@@ -11,7 +11,7 @@ body {
 }
 #holder_1000 {
     margin: 0 auto;
-    height: 400px;
+    height: 600px;
     width: 1000px;
 }
 a {

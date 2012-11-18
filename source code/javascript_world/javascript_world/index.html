@@ -113,7 +113,7 @@
 
 				var cities = {};
 
-				cities.Afghanistan = plot(33.93911,67.709953,20);
+				/*cities.Afghanistan = plot(33.93911,67.709953,20);
 				cities.Azerbaijan = plot(40.143105,47.576927,2);
 				cities.Bolivia = plot(-16.290154,-63.588653,1);
 				cities.Brazil = plot(-14.235004,-51.92528,3);
@@ -146,7 +146,63 @@
 				cities.Venezuela = plot(6.42375,-66.58973,1);
 				cities.Yemen = plot(15.552727,48.516388,5);
 				cities.Zimbabwe = plot(-19.015438,29.154857,2);
+*/
+				var org_attr = {
+					fill: "#2B11D6",
+					stroke: "none",
+					opacity: 0.3
+				};
+				
 
+				var orgs = {};
+				
+				function plot(lat,lon,size) {
+					size = size * .5 + 4;
+					return R.circle(lon2x(lon), lat2y(lat), size).attr(org_attr);
+				}
+				
+				orgs.WaterAid = plot(-100,-120,80);
+				var rcities = [{cname: "Kenya", ccode: "KE", fund: 120},{cname: "China", ccode: "CN", fund: 50}]
+				var current_org = null;
+				var org_box = null;
+				for (var org in orgs) {							        
+    	            map[state].color = Raphael.getColor();
+	                (function (st, org) {
+						st[0].style.cursor = "pointer";
+						st[0].onmouseover = function () {
+							current_org && cities[current_org].animate({fill: "#2B11D6", opacity: .1}, 300);
+							st.animate({fill: "#2B11D6", opacity: 1}, 300);
+							current_city = city;
+							for (var rcity in rcities) {
+							var i = rcities[rcity].fund * 0.01;
+							map[rcities[rcity].ccode].animate({fill: "#2B11D6", opacity: i}, 300);
+							}
+							R.safari();
+						};
+						st[0].onmouseout = function () {
+							st.animate({fill: "#2B11D6", opacity: 0.3}, 300);
+							for (var rcity in rcities) {
+							map[rcities[rcity].ccode].animate({fill: "#333", opacity: 1}, 300);
+							}
+							R.safari();
+						};
+						
+						st[0].onclick = function () {
+							if (t = document.getElementById(org_box)) { t.style.display = "none"; }
+							if (t = document.getElementById(org)) { t.style.display = "block"; }
+							org_box = org;
+						};
+
+
+						/*if (t = document.getElementById(org)) {
+								t.style.left = orgs[org].attr('cx') + 'px';
+								t.style.top = orgs[org].attr('cy') -20 + 'px';
+						}*/
+
+					})(orgs[org], org);
+				};
+				
+				
 				var current_city = null;
 				var city_box = null;
 				for (var city in cities) {							        
