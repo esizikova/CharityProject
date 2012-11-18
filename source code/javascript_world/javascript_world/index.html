@@ -17,19 +17,30 @@
 				var attr = {
 					fill: "#333",
 					stroke: "#888",
-					"stroke-width": .5,
+					"stroke-width": 1,
 					"stroke-linejoin": "round"
 				};				
 				var map = {};
 				var R = Raphael("holder_1000");
-				render_map(R,map,attr);		
+				render_map(R,map,attr);
+
+				// embed wateraid logo
+				var logoLayer = R.set();
+				logoLayer.push(R.rect(380, 345, 200, 59).attr({fill: "url('logo.gif')", "stroke-width": 0}));
+				logoLayer.onmouseclick = function () {
+				    alert("about");
+				}		
 				for (var state in map) {							        
     	            map[state].color = Raphael.getColor();   // st -brder
+
 	                (function (st, state) {
 						var click = false;
+						var clickNo = 0;
 						var eltext = R.set();
 						var text = null;
+						var currCountryInfoBox = null;
 						st[0].style.cursor = "pointer";
+						st.translate(0,25);
 						st[0].onmouseover = function () {
 							current && map[current].animate({fill: "#333", stroke: "#666"}, 300);   // uncolors
 							st.animate({fill: st.color, stroke: "#ccc"}, 300);   // colors current
@@ -43,25 +54,34 @@
 								text.remove();
 							}
 							click = false;
+							clickNo = 0;
+							currCountryInfoBox.remove()
 							R.safari();
 
 						};
 						
+						
+
 						st[0].onclick = function () {
 							if (! click) {
 							   st.scale(2);
-						           //st.write("apple");
+							   st.toFront();
  							   click = true;
-							   //var box = st.getBBox(true);
-							   //el = R.ellipse((box.x, box.y, box.width, box.height).animate({fill: "#333"});
-							   //R.push(el);
 							   var box = st.getBBox(true);
 							   var centerX = box.x+0.6*box.width;
 							   var centerY = box.y+0.6*box.height;
-							   text = R.text(centerX, centerY, "Timeline").attr({fill: '#ff0000'});	
+							   text = R.text(centerX, centerY, state);	
 							}
-							
-
+							   clickNo = clickNo+1;
+							   if (clickNo%2 ==0) {
+								//display info about the timeline of the country
+								currCountryInfoBox = R.rect(40, 40, 900, 350, 50);
+								st.toFront();
+								currCountryInfoBox.animate({fill: "#333"});
+							    }
+							   else {
+								currCountryInfoBox.remove()
+							    }
 							R.safari();
 						};
 
