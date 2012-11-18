@@ -1,0 +1,37 @@
+[global]
+tools.staticdir.root : 'C:/cygwin/home/AESS/CharityProject/backend/'
+tools.staticfile.root : 'C:/cygwin/home/AESS/CharityProject/backend/'
+tools.caching.on : False
+log.environment: 'debug'
+log.error_file: 'site.log'
+log.screen: True
+tools.encode.on : True
+tools.encode.encoding : 'utf-8'
+
+[/favicon.ico]
+tools.staticfile.on : True
+tools.staticfile.filename : 'favicon.png'
+
+[/favicon.png]
+tools.staticfile.on : True
+tools.staticfile.filename : 'favicon.png'
+
+[/static]
+tools.staticdir.on : True
+tools.staticdir.dir : 'static/'
+#tools.staticdir.index : 'joblisting.html'
+
+#Workaround the IIS capitalization problem
+#[/STATIC]
+#tools.staticdir.on : True
+#tools.staticdir.dir : cpapp.current_dir + '/static'
+#tools.staticdir.index : 'joblisting.html'
+
+[/]
+tools.sessions.on : True
+tools.sessions.storage_type : 'file'
+#tools.sessions.storage_path : cpapp.current_dir + '/sessions'
+tools.sessions.storage_path : 'sessions'
+tools.sessions.timeout : 300
+tools.encode.on : True
+tools.encode.encoding : 'utf-8'
