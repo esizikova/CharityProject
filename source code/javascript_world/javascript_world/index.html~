@@ -380,7 +380,7 @@ input {
         
         </p>
 <div id=reg><label><input id="SAM" type="checkbox" onclick="highlightNorthAmerica()" />North America</label><br>
-								<label><input id="AFR" type="checkbox" onclick="orgs.WaterAid.onlcick" />Africa</label>
+								<label><input id="AFR" type="checkbox" onclick="orgs.WaterAid.onclick" />Africa</label>
 								</div>
 <div id=reg><label><input id="SAM" type="checkbox" onclick="filteringfun()" />South America</label><br>
 								<label><input id="AFR" type="checkbox" onclick="filteringfun()" />Africa</label>
